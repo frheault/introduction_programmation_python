@@ -1,14 +1,25 @@
-# introduction_programmation_python
-Ressources pour l'introduction à la Programmation en Python
+# Introduction à la Programmation Python : Cahiers Jupyter
 
-Les fichiers allant de '1_1' à '7_3' sont une introduction aux différents concepts de Python.
+Ce dépôt contient une série de cahiers Jupyter (`.ipynb`) conçus pour un cours d'introduction à la programmation en Python. Les matériaux sont structurés pour guider les apprenants des concepts fondamentaux aux applications plus avancées, notamment en calcul numérique avec NumPy et en traitement d'images.
 
-Les fichiers de 'a' à 'j' sont plus avancés (pour certains cours) et contiennent plusieurs exemples d'utilisation de libraries externes (scipy, numpy, imageio, etc)
+## Structure des Cahiers
 
-- 'balles_rebondissantes.py' est un exemple de programme complexe pour faire des démonstration
+Les cahiers sont organisés en plusieurs sections thématiques :
 
-- 'class_and_objects.py' contient des exemples de programmation orientée objet (pour certains cours)
+-   **Sections 1 à 4 (Fichiers `1_1_...` à `4_3_...`)** : Couvrent les concepts fondamentaux de Python, incluant les variables, les types de données, les structures de contrôle (conditions et boucles) et les fonctions.
 
-- 'print_fibonacci.py' est un exemple de programme simple
+-   **Sections 5 à 7 (Fichiers `5_1_...` à `7_3_...`)** : Abordent des sujets complémentaires essentiels tels que la gestion des erreurs et le débogage, l'utilisation des modules et des imports, et les bonnes pratiques d'organisation du code.
 
-- 'remove_background.py' est un exemple de programme complexe avec entrée utilisant 'argparser'
+-   **Sections Avancées (Fichiers `a_...` à `j_...`)** : Présentent des applications plus spécialisées, notamment l'introduction à NumPy, les défis pratiques avec NumPy, et diverses techniques de manipulation et d'analyse d'images.
+
+## Objectifs Pédagogiques
+
+Chaque cahier a été révisé pour :
+-   Améliorer la clarté et la concision du contenu.
+-   Adopter un ton professionnel et académique.
+-   Harmoniser la structure pour faciliter l'utilisation en tant que support de présentation.
+-   Enforcer les conventions de style (ex: utilisation des guillemets doubles pour les chaînes de caractères).
+
+## Utilisation
+
+Les cahiers sont destinés à être utilisés comme un support de cours interactif. Les utilisateurs peuvent exécuter le code directement dans l'environnement Jupyter pour expérimenter les concepts en temps réel.
