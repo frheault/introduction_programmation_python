@@ -2,23 +2,33 @@
 
 Ce dépôt contient une série de cahiers Jupyter (`.ipynb`) conçus pour un cours d'introduction à la programmation en Python. Les matériaux sont structurés pour guider les apprenants des concepts fondamentaux aux applications plus avancées, notamment en calcul numérique avec NumPy et en traitement d'images.
 
-## Structure des Cahiers
+## Structure du Dépôt
 
-Les cahiers sont organisés en plusieurs sections thématiques :
+Le cours est divisé en plusieurs chapitres thématiques, chacun représenté par un ou plusieurs notebooks.
 
--   **Sections 1 à 4 (Fichiers `1_1_...` à `4_3_...`)** : Couvrent les concepts fondamentaux de Python, incluant les variables, les types de données, les structures de contrôle (conditions et boucles) et les fonctions.
+### Chapitres 0-1 : Les Bases
+-   **`0_1` à `0_3`**: Introduction à la programmation, à Python et à l'environnement Jupyter.
+-   **`1_1` à `1_6`**: Concepts fondamentaux des variables et des types de données de base (numériques, chaînes, booléens).
 
--   **Sections 5 à 7 (Fichiers `5_1_...` à `7_3_...`)** : Abordent des sujets complémentaires essentiels tels que la gestion des erreurs et le débogage, l'utilisation des modules et des imports, et les bonnes pratiques d'organisation du code.
+### Chapitres 2 & 4 : Programmation Structurée
+-   **`2_1` à `2_3`**: Introduction aux structures de contrôle, conditions (`if/elif/else`).
+-   **`4_1` à `4_3`**: Boucles (`for`, `while`) et fonctions (`def`).
 
--   **Sections Avancées (Fichiers `a_...` à `j_...`)** : Présentent des applications plus spécialisées, notamment l'introduction à NumPy, les défis pratiques avec NumPy, et diverses techniques de manipulation et d'analyse d'images.
+### Chapitre 3 : Structures de Données
+-   **`3_1` à `3_6`**: Exploration des collections principales : listes, tuples, ensembles et dictionnaires.
 
-## Objectifs Pédagogiques
+### Chapitre 5 : Concepts Complémentaires
+-   **`5_1` à `5_4`**: Gestion des erreurs, débogage, importation de modules et optimisation du code.
 
-Chaque cahier a été révisé pour :
--   Améliorer la clarté et la concision du contenu.
--   Adopter un ton professionnel et académique.
--   Harmoniser la structure pour faciliter l'utilisation en tant que support de présentation.
--   Enforcer les conventions de style (ex: utilisation des guillemets doubles pour les chaînes de caractères).
+### Chapitre 6 : Manipulation de Fichiers
+-   **`6_1` & `6_2`**: Navigation dans le système de fichiers et lecture/écriture de fichiers texte.
+
+### Chapitre 7 : Concepts Algorithmiques
+-   **`7_1`**: Introduction à la complexité algorithmique (Big O).
+-   **`7_2`**: Introduction à la Programmation Orientée Objet (POO).
+
+### Applications Pratiques (Data Science & Imagerie)
+-   **`a_...` à `j_...`**: Série de notebooks avancés sur NumPy et le traitement d'images, incluant des cas d'étude sur l'analyse d'images cérébrales, le comptage de cellules et le calcul du rapport signal/bruit.
 
 ## Utilisation
 
